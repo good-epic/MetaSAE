@@ -1,0 +1,530 @@
+{
+  "n_tokens": 20480,
+  "candidates": [
+    {
+      "feature_idx": 37,
+      "description": "Smoke-test mock explanation for solo #37",
+      "firing_rate": 0.03369140625,
+      "phi_top2": 0.3603702485561371,
+      "top_examples": [
+        {
+          "activation": 6.0750532150268555,
+          "text": " expectations still abound for the Dixie Flyers.\nAfter",
+          "dominant_token": " D"
+        },
+        {
+          "activation": 5.964876174926758,
+          "text": "allorca is an island sheltered by the Mediterranean and",
+          "dominant_token": " island"
+        },
+        {
+          "activation": 5.907011032104492,
+          "text": "or.\nThe temple of sun\nBeyond its undeniable",
+          "dominant_token": " of"
+        },
+        {
+          "activation": 5.668293476104736,
+          "text": " powered by Silvergate Exchange Network",
+          "dominant_token": " powered"
+        },
+        {
+          "activation": 5.659439563751221,
+          "text": "Those who are on this career",
+          "dominant_token": "Those"
+        }
+      ],
+      "top_phi_matches": [
+        {
+          "phi": 0.9962444305419922,
+          "match_feature_idx": 37,
+          "match_description": "Smoke-test mock explanation for joint #37",
+          "match_firing_rate": 0.033447265625,
+          "is_nearest_geom_neighbor": true
+        },
+        {
+          "phi": 0.3603702485561371,
+          "match_feature_idx": 12,
+          "match_description": "Smoke-test mock explanation for joint #12",
+          "match_firing_rate": 0.05302734300494194,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.31676381826400757,
+          "match_feature_idx": 62,
+          "match_description": "Smoke-test mock explanation for joint #62",
+          "match_firing_rate": 0.06704101711511612,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.16681167483329773,
+          "match_feature_idx": 58,
+          "match_description": "Smoke-test mock explanation for joint #58",
+          "match_firing_rate": 0.19091796875,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.15307588875293732,
+          "match_feature_idx": 6,
+          "match_description": "Smoke-test mock explanation for joint #6",
+          "match_firing_rate": 0.24760742485523224,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.05599528178572655,
+          "match_feature_idx": 8,
+          "match_description": "Smoke-test mock explanation for joint #8",
+          "match_firing_rate": 0.6290527582168579,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.0506567656993866,
+          "match_feature_idx": 16,
+          "match_description": "Smoke-test mock explanation for joint #16",
+          "match_firing_rate": 0.7576659917831421,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.033309102058410645,
+          "match_feature_idx": 25,
+          "match_description": "Smoke-test mock explanation for joint #25",
+          "match_firing_rate": 0.8907226324081421,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.021524960175156593,
+          "match_feature_idx": 23,
+          "match_description": "Smoke-test mock explanation for joint #23",
+          "match_firing_rate": 0.7176758050918579,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.013411342166364193,
+          "match_feature_idx": 46,
+          "match_description": "",
+          "match_firing_rate": 0.0008300781482830644,
+          "is_nearest_geom_neighbor": false
+        }
+      ]
+    },
+    {
+      "feature_idx": 32,
+      "description": "Smoke-test mock explanation for solo #32",
+      "firing_rate": 0.01010742224752903,
+      "phi_top2": 0.08952028304338455,
+      "top_examples": [
+        {
+          "activation": 7.538140773773193,
+          "text": " Gen. Dr. Arun Sharma, the Principal",
+          "dominant_token": "un"
+        },
+        {
+          "activation": 7.048804759979248,
+          "text": " quite miserably if I may add.\n",
+          "dominant_token": " may"
+        },
+        {
+          "activation": 6.6588568687438965,
+          "text": " along this trajectory. Utilizing more traditional acoustic elements",
+          "dominant_token": "il"
+        },
+        {
+          "activation": 5.599225044250488,
+          "text": " And for that I am thankful. As someone with a",
+          "dominant_token": " thankful"
+        },
+        {
+          "activation": 5.33992862701416,
+          "text": " failing quite miserably if I may add.\n",
+          "dominant_token": " I"
+        }
+      ],
+      "top_phi_matches": [
+        {
+          "phi": 0.9975569248199463,
+          "match_feature_idx": 32,
+          "match_description": "Smoke-test mock explanation for joint #32",
+          "match_firing_rate": 0.010058593936264515,
+          "is_nearest_geom_neighbor": true
+        },
+        {
+          "phi": 0.08952028304338455,
+          "match_feature_idx": 29,
+          "match_description": "Smoke-test mock explanation for joint #29",
+          "match_firing_rate": 0.01674804650247097,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.05390128493309021,
+          "match_feature_idx": 10,
+          "match_description": "Smoke-test mock explanation for joint #10",
+          "match_firing_rate": 0.03188476711511612,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.05357365310192108,
+          "match_feature_idx": 63,
+          "match_description": "Smoke-test mock explanation for joint #63",
+          "match_firing_rate": 0.015869140625,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.042449165135622025,
+          "match_feature_idx": 4,
+          "match_description": "Smoke-test mock explanation for joint #4",
+          "match_firing_rate": 0.0074218749068677425,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.041668809950351715,
+          "match_feature_idx": 28,
+          "match_description": "Smoke-test mock explanation for joint #28",
+          "match_firing_rate": 0.06640625,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.039599690586328506,
+          "match_feature_idx": 49,
+          "match_description": "Smoke-test mock explanation for joint #49",
+          "match_firing_rate": 0.02104492112994194,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.03608664125204086,
+          "match_feature_idx": 41,
+          "match_description": "Smoke-test mock explanation for joint #41",
+          "match_firing_rate": 0.01894531212747097,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.030677087604999542,
+          "match_feature_idx": 0,
+          "match_description": "Smoke-test mock explanation for joint #0",
+          "match_firing_rate": 0.0042968750931322575,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.02955445647239685,
+          "match_feature_idx": 18,
+          "match_description": "Smoke-test mock explanation for joint #18",
+          "match_firing_rate": 0.009814453311264515,
+          "is_nearest_geom_neighbor": false
+        }
+      ]
+    },
+    {
+      "feature_idx": 29,
+      "description": "Smoke-test mock explanation for solo #29",
+      "firing_rate": 0.01713867112994194,
+      "phi_top2": 0.08848395943641663,
+      "top_examples": [
+        {
+          "activation": 8.76962661743164,
+          "text": " the earlier May/June West African Senior Secondary School Certificate",
+          "dominant_token": " West"
+        },
+        {
+          "activation": 6.676104545593262,
+          "text": " 50 and 51:\n(a) a decision requiring",
+          "dominant_token": "("
+        },
+        {
+          "activation": 6.057852745056152,
+          "text": " Mayanga by 4th & base \u2013 because I\ufffd",
+          "dominant_token": " &"
+        },
+        {
+          "activation": 5.5097737312316895,
+          "text": " the substance, the hazard end-point for which verte",
+          "dominant_token": " end"
+        },
+        {
+          "activation": 5.026590347290039,
+          "text": "\ufffdve received from the one person who has read a",
+          "dominant_token": " one"
+        }
+      ],
+      "top_phi_matches": [
+        {
+          "phi": 0.9883418679237366,
+          "match_feature_idx": 29,
+          "match_description": "Smoke-test mock explanation for joint #29",
+          "match_firing_rate": 0.01674804650247097,
+          "is_nearest_geom_neighbor": true
+        },
+        {
+          "phi": 0.08848395943641663,
+          "match_feature_idx": 32,
+          "match_description": "Smoke-test mock explanation for joint #32",
+          "match_firing_rate": 0.010058593936264515,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.038677897304296494,
+          "match_feature_idx": 42,
+          "match_description": "",
+          "match_firing_rate": 0.0018066406482830644,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.03579667583107948,
+          "match_feature_idx": 28,
+          "match_description": "Smoke-test mock explanation for joint #28",
+          "match_firing_rate": 0.06640625,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.03566732630133629,
+          "match_feature_idx": 27,
+          "match_description": "Smoke-test mock explanation for joint #27",
+          "match_firing_rate": 0.02885742112994194,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.03264904394745827,
+          "match_feature_idx": 18,
+          "match_description": "Smoke-test mock explanation for joint #18",
+          "match_firing_rate": 0.009814453311264515,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.028710881248116493,
+          "match_feature_idx": 1,
+          "match_description": "Smoke-test mock explanation for joint #1",
+          "match_firing_rate": 0.0126953125,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.02781813219189644,
+          "match_feature_idx": 49,
+          "match_description": "Smoke-test mock explanation for joint #49",
+          "match_firing_rate": 0.02104492112994194,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.026277977973222733,
+          "match_feature_idx": 62,
+          "match_description": "Smoke-test mock explanation for joint #62",
+          "match_firing_rate": 0.06704101711511612,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.023520512506365776,
+          "match_feature_idx": 9,
+          "match_description": "Smoke-test mock explanation for joint #9",
+          "match_firing_rate": 0.04345703125,
+          "is_nearest_geom_neighbor": false
+        }
+      ]
+    },
+    {
+      "feature_idx": 1,
+      "description": "Smoke-test mock explanation for solo #1",
+      "firing_rate": 0.013134765438735485,
+      "phi_top2": 0.08771217614412308,
+      "top_examples": [
+        {
+          "activation": 9.32340145111084,
+          "text": ", such as Sineu\u00b4s market; contemplating",
+          "dominant_token": "u"
+        },
+        {
+          "activation": 7.903232097625732,
+          "text": " Learn how to prepare for all potential Brexit outcomes.\n",
+          "dominant_token": " all"
+        },
+        {
+          "activation": 7.214907646179199,
+          "text": " how it\u2019s going and will compare before with",
+          "dominant_token": " going"
+        },
+        {
+          "activation": 6.118696212768555,
+          "text": " beautiful Cap de Formentor.\nThe temple of",
+          "dominant_token": "or"
+        },
+        {
+          "activation": 6.065756797790527,
+          "text": "Back to point: understanding all corners of the wine business",
+          "dominant_token": " all"
+        }
+      ],
+      "top_phi_matches": [
+        {
+          "phi": 0.9829102754592896,
+          "match_feature_idx": 1,
+          "match_description": "Smoke-test mock explanation for joint #1",
+          "match_firing_rate": 0.0126953125,
+          "is_nearest_geom_neighbor": true
+        },
+        {
+          "phi": 0.08771217614412308,
+          "match_feature_idx": 27,
+          "match_description": "Smoke-test mock explanation for joint #27",
+          "match_firing_rate": 0.02885742112994194,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.06177888438105583,
+          "match_feature_idx": 59,
+          "match_description": "Smoke-test mock explanation for joint #59",
+          "match_firing_rate": 0.0556640625,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.05917704477906227,
+          "match_feature_idx": 14,
+          "match_description": "Smoke-test mock explanation for joint #14",
+          "match_firing_rate": 0.094970703125,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.05363142862915993,
+          "match_feature_idx": 28,
+          "match_description": "Smoke-test mock explanation for joint #28",
+          "match_firing_rate": 0.06640625,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.03792664036154747,
+          "match_feature_idx": 51,
+          "match_description": "Smoke-test mock explanation for joint #51",
+          "match_firing_rate": 0.086181640625,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.03173219785094261,
+          "match_feature_idx": 29,
+          "match_description": "Smoke-test mock explanation for joint #29",
+          "match_firing_rate": 0.01674804650247097,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.03076426312327385,
+          "match_feature_idx": 36,
+          "match_description": "",
+          "match_firing_rate": 0.0022460937034338713,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.029998287558555603,
+          "match_feature_idx": 4,
+          "match_description": "Smoke-test mock explanation for joint #4",
+          "match_firing_rate": 0.0074218749068677425,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.026532232761383057,
+          "match_feature_idx": 63,
+          "match_description": "Smoke-test mock explanation for joint #63",
+          "match_firing_rate": 0.015869140625,
+          "is_nearest_geom_neighbor": false
+        }
+      ]
+    },
+    {
+      "feature_idx": 27,
+      "description": "Smoke-test mock explanation for solo #27",
+      "firing_rate": 0.02895507775247097,
+      "phi_top2": 0.08705991506576538,
+      "top_examples": [
+        {
+          "activation": 9.983736038208008,
+          "text": " recently, the Chicago Mercantile Exchange also added another",
+          "dominant_token": "ant"
+        },
+        {
+          "activation": 9.613884925842285,
+          "text": " transported to Saint-Laurent-Du- Mar",
+          "dominant_token": "ure"
+        },
+        {
+          "activation": 8.774154663085938,
+          "text": " of its landscapes, Mallorca is sun. It",
+          "dominant_token": "or"
+        },
+        {
+          "activation": 8.446622848510742,
+          "text": " is in the right spot vis-a-vie",
+          "dominant_token": " vis"
+        },
+        {
+          "activation": 8.115726470947266,
+          "text": ", Mallorca is sun. It is a perfect",
+          "dominant_token": " sun"
+        }
+      ],
+      "top_phi_matches": [
+        {
+          "phi": 0.9982619881629944,
+          "match_feature_idx": 27,
+          "match_description": "Smoke-test mock explanation for joint #27",
+          "match_firing_rate": 0.02885742112994194,
+          "is_nearest_geom_neighbor": true
+        },
+        {
+          "phi": 0.08705991506576538,
+          "match_feature_idx": 1,
+          "match_description": "Smoke-test mock explanation for joint #1",
+          "match_firing_rate": 0.0126953125,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.08426465839147568,
+          "match_feature_idx": 53,
+          "match_description": "Smoke-test mock explanation for joint #53",
+          "match_firing_rate": 0.01914062537252903,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.05729758366942406,
+          "match_feature_idx": 63,
+          "match_description": "Smoke-test mock explanation for joint #63",
+          "match_firing_rate": 0.015869140625,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.04347158223390579,
+          "match_feature_idx": 51,
+          "match_description": "Smoke-test mock explanation for joint #51",
+          "match_firing_rate": 0.086181640625,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.04317217320203781,
+          "match_feature_idx": 59,
+          "match_description": "Smoke-test mock explanation for joint #59",
+          "match_firing_rate": 0.0556640625,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.04220547899603844,
+          "match_feature_idx": 31,
+          "match_description": "Smoke-test mock explanation for joint #31",
+          "match_firing_rate": 0.02749023400247097,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.04172391816973686,
+          "match_feature_idx": 48,
+          "match_description": "Smoke-test mock explanation for joint #48",
+          "match_firing_rate": 0.06752929836511612,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.03739316016435623,
+          "match_feature_idx": 43,
+          "match_description": "Smoke-test mock explanation for joint #43",
+          "match_firing_rate": 0.20732422173023224,
+          "is_nearest_geom_neighbor": false
+        },
+        {
+          "phi": 0.03646249324083328,
+          "match_feature_idx": 29,
+          "match_description": "Smoke-test mock explanation for joint #29",
+          "match_firing_rate": 0.01674804650247097,
+          "is_nearest_geom_neighbor": false
+        }
+      ]
+    }
+  ]
+}

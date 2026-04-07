@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meta-sae"
+version = "0.1.0"
+description = "MetaSAE: training sparse autoencoders with a decomposability penalty"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.24",
+    "tqdm",
+    "datasets",
+    "transformer_lens",
+    "safetensors",
+    "scipy",
+]
+
+[project.optional-dependencies]
+wandb = ["wandb"]
+dev = [
+    "pytest",
+    "black",
+    "ruff",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["meta_sae*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

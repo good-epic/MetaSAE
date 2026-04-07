@@ -1,0 +1,15 @@
+torch>=2.0
+numpy>=1.24
+tqdm
+datasets
+transformer_lens
+safetensors
+scipy
+
+[dev]
+pytest
+black
+ruff
+
+[wandb]
+wandb

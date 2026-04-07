@@ -1,0 +1,235 @@
+
+============================================================
+  Step 0: Pre-flight checks
+============================================================
+/home/mattylev/.pyenv/versions/simplex/lib/python3.12/site-packages/jaxtyping/__init__.py:231: UserWarning: jaxtyping version >=0.2.23 should be used with Equinox version >=0.11.1
+  warnings.warn(
+  device : cuda
+  GPU    : NVIDIA GeForce RTX 3070 Ti Laptop GPU  (8.2 GB)
+  OK
+
+============================================================
+  Step 1: VanillaSAE / JumpReLUSAE inference (unknown 5)
+============================================================
+  VanillaSAE: forward, encode, decode, encode_decode — OK
+  JumpReLUSAE: forward, encode, decode, encode_decode — OK
+  InferenceSAE: forward, steer(identity), top_activating_examples — OK
+PASSED
+
+============================================================
+  Step 2: train_sae_with_meta() + solo training (unknown 1)
+============================================================
+  Loading gpt2 ...
+Loaded pretrained model gpt2 into HookedTransformer
+  Joint training ...
+   Device configuration: cuda
+   Primary SAE W_enc device: cuda:0
+   Meta SAE W_enc device: cuda:0
+Training SAE + Meta SAE:   0%|          | 0/195 [00:00<?, ?it/s]Training SAE + Meta SAE:   1%|          | 1/195 [00:00<00:45,  4.22it/s]Training SAE + Meta SAE:   3%|▎         | 5/195 [00:00<00:13, 14.09it/s]Training SAE + Meta SAE:   6%|▌         | 11/195 [00:00<00:06, 27.19it/s]Training SAE + Meta SAE:   8%|▊         | 15/195 [00:00<00:05, 30.14it/s]Training SAE + Meta SAE:  11%|█         | 21/195 [00:00<00:05, 32.21it/s]Training SAE + Meta SAE:  14%|█▍        | 28/195 [00:00<00:04, 41.33it/s]Training SAE + Meta SAE:  17%|█▋        | 33/195 [00:01<00:06, 25.76it/s]Training SAE + Meta SAE:  19%|█▉        | 37/195 [00:01<00:06, 26.13it/s]Training SAE + Meta SAE:  21%|██        | 41/195 [00:01<00:05, 28.66it/s]Training SAE + Meta SAE:  25%|██▍       | 48/195 [00:01<00:03, 37.55it/s]Training SAE + Meta SAE:  26%|██▌       | 50/195 [00:01<00:03, 37.55it/s, Loss=1.1824, L0=8.0, L2=0.9660, Decomp=0.3186]Training SAE + Meta SAE:  27%|██▋       | 53/195 [00:01<00:04, 35.14it/s, Loss=1.1824, L0=8.0, L2=0.9660, Decomp=0.3186]Training SAE + Meta SAE:  30%|██▉       | 58/195 [00:01<00:03, 38.00it/s, Loss=1.1824, L0=8.0, L2=0.9660, Decomp=0.3186]Training SAE + Meta SAE:  33%|███▎      | 65/195 [00:02<00:03, 39.52it/s, Loss=1.1824, L0=8.0, L2=0.9660, Decomp=0.3186]Training SAE + Meta SAE:  37%|███▋      | 72/195 [00:02<00:02, 46.03it/s, Loss=1.1824, L0=8.0, L2=0.9660, Decomp=0.3186]Training SAE + Meta SAE:  39%|███▉      | 77/195 [00:02<00:02, 40.12it/s, Loss=1.1824, L0=8.0, L2=0.9660, Decomp=0.3186]Training SAE + Meta SAE:  43%|████▎     | 83/195 [00:02<00:02, 44.25it/s, Loss=1.1824, L0=8.0, L2=0.9660, Decomp=0.3186]Training SAE + Meta SAE:  46%|████▌     | 89/195 [00:02<00:02, 39.59it/s, Loss=1.1824, L0=8.0, L2=0.9660, Decomp=0.3186]Training SAE + Meta SAE:  48%|████▊     | 94/195 [00:02<00:02, 40.69it/s, Loss=1.1824, L0=8.0, L2=0.9660, Decomp=0.3186]Training SAE + Meta SAE:  51%|█████▏    | 100/195 [00:02<00:02, 40.69it/s, Loss=1.0510, L0=8.0, L2=0.8384, Decomp=0.3595]Training SAE + Meta SAE:  52%|█████▏    | 101/195 [00:02<00:02, 41.29it/s, Loss=1.0510, L0=8.0, L2=0.8384, Decomp=0.3595]Training SAE + Meta SAE:  55%|█████▌    | 108/195 [00:02<00:01, 47.66it/s, Loss=1.0510, L0=8.0, L2=0.8384, Decomp=0.3595]Training SAE + Meta SAE:  58%|█████▊    | 114/195 [00:03<00:01, 43.59it/s, Loss=1.0510, L0=8.0, L2=0.8384, Decomp=0.3595]Training SAE + Meta SAE:  61%|██████    | 119/195 [00:03<00:01, 44.99it/s, Loss=1.0510, L0=8.0, L2=0.8384, Decomp=0.3595]Training SAE + Meta SAE:  64%|██████▍   | 125/195 [00:03<00:01, 42.42it/s, Loss=1.0510, L0=8.0, L2=0.8384, Decomp=0.3595]Training SAE + Meta SAE:  67%|██████▋   | 131/195 [00:03<00:01, 46.30it/s, Loss=1.0510, L0=8.0, L2=0.8384, Decomp=0.3595]Training SAE + Meta SAE:  70%|███████   | 137/195 [00:03<00:01, 43.16it/s, Loss=1.0510, L0=8.0, L2=0.8384, Decomp=0.3595]Training SAE + Meta SAE:  74%|███████▍  | 144/195 [00:03<00:01, 49.51it/s, Loss=1.0510, L0=8.0, L2=0.8384, Decomp=0.3595]Training SAE + Meta SAE:  77%|███████▋  | 150/195 [00:03<00:01, 40.62it/s, Loss=1.0510, L0=8.0, L2=0.8384, Decomp=0.3595]Training SAE + Meta SAE:  77%|███████▋  | 150/195 [00:03<00:01, 40.62it/s, Loss=0.8600, L0=8.0, L2=0.7480, Decomp=0.3731]Training SAE + Meta SAE:  81%|████████  | 157/195 [00:04<00:00, 41.73it/s, Loss=0.8600, L0=8.0, L2=0.7480, Decomp=0.3731]Training SAE + Meta SAE:  84%|████████▎ | 163/195 [00:04<00:00, 45.70it/s, Loss=0.8600, L0=8.0, L2=0.7480, Decomp=0.3731]Training SAE + Meta SAE:  87%|████████▋ | 169/195 [00:04<00:00, 42.45it/s, Loss=0.8600, L0=8.0, L2=0.7480, Decomp=0.3731]Training SAE + Meta SAE:  90%|████████▉ | 175/195 [00:04<00:00, 45.93it/s, Loss=0.8600, L0=8.0, L2=0.7480, Decomp=0.3731]Training SAE + Meta SAE:  93%|█████████▎| 181/195 [00:04<00:00, 40.43it/s, Loss=0.8600, L0=8.0, L2=0.7480, Decomp=0.3731]Training SAE + Meta SAE:  95%|█████████▌| 186/195 [00:04<00:00, 42.15it/s, Loss=0.8600, L0=8.0, L2=0.7480, Decomp=0.3731]Training SAE + Meta SAE:  98%|█████████▊| 191/195 [00:04<00:00, 43.91it/s, Loss=0.8600, L0=8.0, L2=0.7480, Decomp=0.3731]Training SAE + Meta SAE: 100%|██████████| 195/195 [00:05<00:00, 38.67it/s, Loss=0.8600, L0=8.0, L2=0.7480, Decomp=0.3731]
+   First batch device: cuda:0
+  Joint — loss=0.8600  L0=8.0  decomp=0.373115
+  Saved → metasae_smoke/joint_primary_sae.pt
+  Solo training ...
+Training solo primary SAE...
+   Dictionary size: 64
+   Target tokens: 50,000
+   Batch size: 256
+   Top-k: 8
+   Device: cuda
+Solo Primary SAE Training:   0%|          | 0/195 [00:00<?, ?it/s]Solo Primary SAE Training:   3%|▎         | 5/195 [00:00<00:05, 33.18it/s]Solo Primary SAE Training:   7%|▋         | 13/195 [00:00<00:04, 43.89it/s]Solo Primary SAE Training:  10%|█         | 20/195 [00:00<00:03, 52.57it/s]Solo Primary SAE Training:  13%|█▎        | 26/195 [00:00<00:03, 45.03it/s]Solo Primary SAE Training:  17%|█▋        | 33/195 [00:00<00:03, 43.51it/s]Solo Primary SAE Training:  21%|██        | 41/195 [00:00<00:03, 44.50it/s]Solo Primary SAE Training:  25%|██▌       | 49/195 [00:01<00:03, 47.20it/s]Solo Primary SAE Training:  26%|██▌       | 50/195 [00:01<00:03, 47.20it/s, loss=1.0866, l2=0.9658, l0=8.0, dead=2]Solo Primary SAE Training:  29%|██▉       | 57/195 [00:01<00:02, 49.30it/s, loss=1.0866, l2=0.9658, l0=8.0, dead=2]Solo Primary SAE Training:  33%|███▎      | 65/195 [00:01<00:02, 52.06it/s, loss=1.0866, l2=0.9658, l0=8.0, dead=2]Solo Primary SAE Training:  37%|███▋      | 73/195 [00:01<00:02, 53.79it/s, loss=1.0866, l2=0.9658, l0=8.0, dead=2]Solo Primary SAE Training:  41%|████      | 79/195 [00:01<00:02, 53.24it/s, loss=1.0866, l2=0.9658, l0=8.0, dead=2]Solo Primary SAE Training:  44%|████▎     | 85/195 [00:01<00:02, 47.40it/s, loss=1.0866, l2=0.9658, l0=8.0, dead=2]Solo Primary SAE Training:  48%|████▊     | 93/195 [00:01<00:02, 49.27it/s, loss=1.0866, l2=0.9658, l0=8.0, dead=2]Solo Primary SAE Training:  51%|█████▏    | 100/195 [00:02<00:01, 49.27it/s, loss=0.9430, l2=0.8382, l0=8.0, dead=1]Solo Primary SAE Training:  52%|█████▏    | 101/195 [00:02<00:01, 50.06it/s, loss=0.9430, l2=0.8382, l0=8.0, dead=1]Solo Primary SAE Training:  56%|█████▌    | 109/195 [00:02<00:01, 50.65it/s, loss=0.9430, l2=0.8382, l0=8.0, dead=1]Solo Primary SAE Training:  60%|██████    | 117/195 [00:02<00:01, 51.83it/s, loss=0.9430, l2=0.8382, l0=8.0, dead=1]Solo Primary SAE Training:  64%|██████▍   | 125/195 [00:02<00:01, 53.39it/s, loss=0.9430, l2=0.8382, l0=8.0, dead=1]Solo Primary SAE Training:  68%|██████▊   | 133/195 [00:02<00:01, 49.23it/s, loss=0.9430, l2=0.8382, l0=8.0, dead=1]Solo Primary SAE Training:  71%|███████▏  | 139/195 [00:02<00:01, 49.74it/s, loss=0.9430, l2=0.8382, l0=8.0, dead=1]Solo Primary SAE Training:  74%|███████▍  | 145/195 [00:02<00:01, 48.09it/s, loss=0.9430, l2=0.8382, l0=8.0, dead=1]Solo Primary SAE Training:  77%|███████▋  | 150/195 [00:03<00:00, 48.09it/s, loss=0.7478, l2=0.7478, l0=8.0, dead=0]Solo Primary SAE Training:  78%|███████▊  | 153/195 [00:03<00:00, 49.82it/s, loss=0.7478, l2=0.7478, l0=8.0, dead=0]Solo Primary SAE Training:  83%|████████▎ | 161/195 [00:03<00:00, 49.38it/s, loss=0.7478, l2=0.7478, l0=8.0, dead=0]Solo Primary SAE Training:  87%|████████▋ | 169/195 [00:03<00:00, 49.06it/s, loss=0.7478, l2=0.7478, l0=8.0, dead=0]Solo Primary SAE Training:  91%|█████████ | 177/195 [00:03<00:00, 49.28it/s, loss=0.7478, l2=0.7478, l0=8.0, dead=0]Solo Primary SAE Training:  94%|█████████▍| 183/195 [00:03<00:00, 49.74it/s, loss=0.7478, l2=0.7478, l0=8.0, dead=0]Solo Primary SAE Training:  96%|█████████▋| 188/195 [00:03<00:00, 47.29it/s, loss=0.7478, l2=0.7478, l0=8.0, dead=0]Solo Primary SAE Training:  99%|█████████▉| 193/195 [00:03<00:00, 43.98it/s, loss=0.7478, l2=0.7478, l0=8.0, dead=0]Solo Primary SAE Training: 100%|██████████| 195/195 [00:03<00:00, 48.86it/s, loss=0.7478, l2=0.7478, l0=8.0, dead=0]
+   First batch device: cuda:0
+Solo primary SAE training completed!
+  Solo  — loss=0.7478  L0=8.0
+  Saved → metasae_smoke/solo_primary_sae.pt
+PASSED
+
+============================================================
+  Step 3: Threshold calibration
+============================================================
+Loading SAE from metasae_smoke/joint_primary_sae.pt ...
+  dict_size=64, top_k=8, act_size=768, layer=6
+
+Loading gpt2 via TransformerLens ...
+Loaded pretrained model gpt2 into HookedTransformer
+Moving model to device:  cuda
+  Loaded gpt2.
+Calibrating over 20,000 tokens (batch_size=2048, dict_size=64, n_bins=200, max_val=10.0)...
+      20,480 / 20,000 tokens — done.
+
+Threshold summary:
+  Calibrated (EER)    : 51 / 64
+  Undercalibrated fallback: 13
+  Dead (0 top-k appearances): 0
+  Threshold stats (calibrated+fallback): min=2.375  median=2.525  max=2.775
+
+Saved thresholds → metasae_smoke/thresholds_joint.npy
+  joint: 64/64 features calibrated, 0 dead
+Loading SAE from metasae_smoke/solo_primary_sae.pt ...
+  dict_size=64, top_k=8, act_size=768, layer=6
+
+Loading gpt2 via TransformerLens ...
+Loaded pretrained model gpt2 into HookedTransformer
+Moving model to device:  cuda
+  Loaded gpt2.
+Calibrating over 20,000 tokens (batch_size=2048, dict_size=64, n_bins=200, max_val=10.0)...
+      20,480 / 20,000 tokens — done.
+
+Threshold summary:
+  Calibrated (EER)    : 52 / 64
+  Undercalibrated fallback: 12
+  Dead (0 top-k appearances): 0
+  Threshold stats (calibrated+fallback): min=2.375  median=2.525  max=2.725
+
+Saved thresholds → metasae_smoke/thresholds_solo.npy
+  solo: 64/64 features calibrated, 0 dead
+PASSED
+
+============================================================
+  Step 4: collect_activations() (unknown 2)
+============================================================
+Context pools: n_train=23, n_fuzz=5, n_detect=2, n_boundary=0 → K_total=30
+Mode: MATCHING
+Loading SAEs...
+  Joint dead: 0 / 64
+  Solo  dead: 0 / 64
+Loading cached matching from metasae_smoke/delphi_cache/matching.npz
+
+64 / 64 matched pairs are live.
+Selected 64 pairs (mean cos: 0.9967)
+
+Loading gpt2 via TransformerLens...
+Loaded pretrained model gpt2 into HookedTransformer
+Moving model to device:  cuda
+
+=== Collecting JOINT SAE contexts ===
+  Streaming 20,000 tokens for 64 features (ctx_len=32, K_total=30, n_random=10)...
+         5,120 / 20,000 tokens
+        10,240 / 20,000 tokens
+        15,360 / 20,000 tokens
+        20,000 / 20,000 tokens
+        20,000 / 20,000 tokens — done.
+  Features with full 30 contexts: 55 / 64
+
+=== Collecting SOLO SAE contexts ===
+  Streaming 20,000 tokens for 64 features (ctx_len=32, K_total=30, n_random=10)...
+         5,120 / 20,000 tokens
+        10,240 / 20,000 tokens
+        15,360 / 20,000 tokens
+        20,000 / 20,000 tokens
+        20,000 / 20,000 tokens — done.
+  Features with full 30 contexts: 56 / 64
+
+Features with >= 2 contexts in BOTH: 55 / 64
+
+Saving caches...
+  Saved joint cache → metasae_smoke/delphi_cache/joint.safetensors
+  Saved solo cache → metasae_smoke/delphi_cache/solo.safetensors
+
+Done.
+  joint: 55 features × 30 contexts × 32 ctx_len
+  solo: 55 features × 30 contexts × 32 ctx_len
+  random contexts: 10 samples
+PASSED
+
+============================================================
+  Step 5: compute_cooccurrence() (unknown 3)
+============================================================
+  Mock scores.json: 110 entries
+Loading SAEs...
+Loading calibration thresholds...
+Loading model...
+Loaded pretrained model gpt2 into HookedTransformer
+Loading auto-interp descriptions...
+
+Pass 1: 20,000 tokens → 40 batches
+  Pass 1:   0%|          | 0/40 [00:00<?, ?batch/s]  Pass 1:   2%|▎         | 1/40 [00:00<00:07,  5.05batch/s]  Pass 1:  12%|█▎        | 5/40 [00:00<00:01, 18.72batch/s]  Pass 1:  20%|██        | 8/40 [00:00<00:01, 22.49batch/s]  Pass 1:  28%|██▊       | 11/40 [00:00<00:01, 23.04batch/s]  Pass 1:  35%|███▌      | 14/40 [00:00<00:01, 23.71batch/s]  Pass 1:  42%|████▎     | 17/40 [00:00<00:00, 24.16batch/s]  Pass 1:  50%|█████     | 20/40 [00:00<00:00, 24.93batch/s]  Pass 1:  57%|█████▊    | 23/40 [00:01<00:00, 24.64batch/s]  Pass 1:  65%|██████▌   | 26/40 [00:01<00:00, 25.62batch/s]  Pass 1:  72%|███████▎  | 29/40 [00:01<00:00, 23.49batch/s]  Pass 1:  80%|████████  | 32/40 [00:01<00:00, 22.71batch/s]  Pass 1:  92%|█████████▎| 37/40 [00:01<00:00, 27.72batch/s]  Pass 1: 100%|██████████| 40/40 [00:01<00:00, 24.43batch/s]
+  Processed 20,480 tokens
+  Mean joint firing rate: 0.1262
+  Mean solo  firing rate: 0.1261
+
+Computing phi — Pass A (joint→solo), 1 chunks...
+  Pass A:   0%|          | 0/1 [00:00<?, ?chunk/s]  Pass A: 100%|██████████| 1/1 [00:00<00:00, 177.03chunk/s]
+Computing phi — Pass B (solo→joint), 1 chunks...
+  Pass B:   0%|          | 0/1 [00:00<?, ?chunk/s]  Pass B: 100%|██████████| 1/1 [00:00<00:00, 2255.00chunk/s]
+Saved phi top-k arrays → metasae_smoke/phi/cross_phi_topk.npz
+
+Computing nearest geometric neighbors...
+
+Pass 2: 5,000 tokens → 10 batches
+  Collecting for 15 joint + 15 solo features
+   Skipping 500,000 documents...
+   Skipped 25,000 / 500,000 documents...
+   Skipped 50,000 / 500,000 documents...
+   Skipped 75,000 / 500,000 documents...
+   Skipped 100,000 / 500,000 documents...
+   Skipped 125,000 / 500,000 documents...
+   Skipped 150,000 / 500,000 documents...
+   Skipped 175,000 / 500,000 documents...
+   Skipped 200,000 / 500,000 documents...
+   Skipped 225,000 / 500,000 documents...
+   Skipped 250,000 / 500,000 documents...
+   Skipped 275,000 / 500,000 documents...
+   Skipped 300,000 / 500,000 documents...
+   Skipped 325,000 / 500,000 documents...
+   Skipped 350,000 / 500,000 documents...
+   Skipped 375,000 / 500,000 documents...
+   Skipped 400,000 / 500,000 documents...
+   Skipped 425,000 / 500,000 documents...
+   Skipped 450,000 / 500,000 documents...
+   Skipped 475,000 / 500,000 documents...
+   Skipped 500,000 / 500,000 documents...
+   Done skipping 500,000 documents
+  Pass 2:   0%|          | 0/10 [00:00<?, ?batch/s]  Pass 2:  10%|█         | 1/10 [00:00<00:01,  8.34batch/s]  Pass 2:  30%|███       | 3/10 [00:00<00:00, 13.45batch/s]  Pass 2:  50%|█████     | 5/10 [00:00<00:00, 15.37batch/s]  Pass 2:  70%|███████   | 7/10 [00:00<00:00, 15.11batch/s]  Pass 2:  90%|█████████ | 9/10 [00:00<00:00, 14.31batch/s]  Pass 2: 100%|██████████| 10/10 [00:00<00:00, 14.02batch/s]
+
+Done:
+  metasae_smoke/phi/cross_phi_topk.npz
+  metasae_smoke/phi/splitting_candidates.json  (5 splitting candidates)
+  metasae_smoke/phi/merging_candidates.json  (5 merging candidates)
+  Pass 1+2 — cross_phi_topk.npz keys: ['N1_joint', 'N1_solo', 'n_total', 'phi_j2s_idx', 'phi_j2s_vals', 'phi_s2j_idx', 'phi_s2j_vals']
+Loading SAEs...
+Loading calibration thresholds...
+Loading model...
+Loaded pretrained model gpt2 into HookedTransformer
+Loading auto-interp descriptions...
+Loading phi top-k arrays from metasae_smoke/phi/cross_phi_topk.npz (skipping Pass 1)...
+
+Computing nearest geometric neighbors...
+
+Pass 2: 5,000 tokens → 10 batches
+  Collecting for 15 joint + 15 solo features
+   Skipping 500,000 documents...
+   Skipped 25,000 / 500,000 documents...
+   Skipped 50,000 / 500,000 documents...
+   Skipped 75,000 / 500,000 documents...
+   Skipped 100,000 / 500,000 documents...
+   Skipped 125,000 / 500,000 documents...
+   Skipped 150,000 / 500,000 documents...
+   Skipped 175,000 / 500,000 documents...
+   Skipped 200,000 / 500,000 documents...
+   Skipped 225,000 / 500,000 documents...
+   Skipped 250,000 / 500,000 documents...
+   Skipped 275,000 / 500,000 documents...
+   Skipped 300,000 / 500,000 documents...
+   Skipped 325,000 / 500,000 documents...
+   Skipped 350,000 / 500,000 documents...
+   Skipped 375,000 / 500,000 documents...
+   Skipped 400,000 / 500,000 documents...
+   Skipped 425,000 / 500,000 documents...
+   Skipped 450,000 / 500,000 documents...
+   Skipped 475,000 / 500,000 documents...
+   Skipped 500,000 / 500,000 documents...
+   Done skipping 500,000 documents
+  Pass 2:   0%|          | 0/10 [00:00<?, ?batch/s]  Pass 2:  10%|█         | 1/10 [00:00<00:00,  9.60batch/s]  Pass 2:  30%|███       | 3/10 [00:00<00:00, 13.63batch/s]  Pass 2:  50%|█████     | 5/10 [00:00<00:00, 15.61batch/s]  Pass 2:  70%|███████   | 7/10 [00:00<00:00, 15.20batch/s]  Pass 2:  90%|█████████ | 9/10 [00:00<00:00, 14.96batch/s]  Pass 2: 100%|██████████| 10/10 [00:00<00:00, 14.30batch/s]
+
+Done:
+  metasae_smoke/phi_reload/cross_phi_topk.npz
+  metasae_smoke/phi_reload/splitting_candidates.json  (5 splitting candidates)
+  metasae_smoke/phi_reload/merging_candidates.json  (5 merging candidates)
+  --load-topk shortcut (skip Pass 1): OK
+PASSED
+
+============================================================
+  ALL STEPS PASSED  (5.5 min total)
+  Outputs in: metasae_smoke
+============================================================
+

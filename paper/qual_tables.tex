@@ -1,0 +1,132 @@
+% ─────────────────────────────────────────────────────────────────────────────
+% Qualitative case-study tables (appendix)
+% Examples from GPT-2L λ=0.3, σ²=1.0 pipeline (run 8fc9de)
+% Solo feature is the splitting candidate; joint features are its top
+% cross-|φ| neighbours from the full 35M-token co-occurrence scan.
+% Fuzz = auto-interp fuzzing score; |φ| = cross-SAE co-occurrence correlation.
+% ─────────────────────────────────────────────────────────────────────────────
+
+% ── Table 1: "too" polysemy (GPT-2 large) ───────────────────────────────────
+\begin{table}[t]
+\centering
+\caption{\textbf{``too'' polysemy split.} Solo feature 2827 conflates the
+excess-degree sense (\textit{it was too hot}) with the sentence-final additive
+sense (\textit{me too}; \textit{that's true too}).  The joint SAE separates
+them: feat.\ 4741 inherits the excess sense ($|\varphi|=0.710$), while
+feat.\ 14213 captures the additive sense ($|\varphi|=0.799$).}
+\label{tab:qual_too}
+\small
+\begin{tabular}{llrrl}
+\toprule
+SAE & Feat & Fuzz & $|\varphi|$ & Description \\
+\midrule
+Solo & 2827 & $+0.727$ & — &
+  \textit{too} indicating excess or an undesirable degree;
+  stronger when \textit{too} emphasises a significant or impactful excess. \\[4pt]
+\midrule
+Joint & 4741 & $+0.681$ & $0.710$ &
+  \textit{too} indicating excess or an undesirable degree in a context of
+  regret, limitation, or negative outcome. \\[3pt]
+Joint & 14213 & $+0.174$ & $0.799$ &
+  \textit{too} concluding a sentence that extends or adds to a previous
+  statement; stronger when \textit{too} emphasises an unexpected or
+  contrasting addition (``me too''; ``that's true too''). \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ── Table 2: "let" pragmatic split (GPT-2 large) ────────────────────────────
+\begin{table}[t]
+\centering
+\caption{\textbf{``let'' pragmatic split.} Solo feature 17451 conflates three
+distinct pragmatic roles of \textit{let}: direct suggestion/imperative,
+discourse-transition pivot, and permissive allowing.  The joint SAE assigns
+each role to a distinct feature.}
+\label{tab:qual_let}
+\small
+\begin{tabular}{llrrl}
+\toprule
+SAE & Feat & Fuzz & $|\varphi|$ & Description \\
+\midrule
+Solo & 17451 & $+0.641$ & — &
+  \textit{let} introducing permission, suggestion, or command;
+  stronger in formal or imperative contexts. \\[4pt]
+\midrule
+Joint & 7228 & $+0.646$ & $0.692$ &
+  \textit{let} as direct suggestion or invitation
+  (``Let's go'', ``Let me show you'');
+  stronger with imperative uses. \\[3pt]
+Joint & 10152 & $+0.273$ & $0.486$ &
+  \textit{let} as discourse-transition pivot
+  (``Let me now turn to\ldots'');
+  stronger with definitive or emphatic transitions. \\[3pt]
+Joint & 18650 & $+0.497$ & $0.435$ &
+  \textit{let} as granting permission or allowing an action;
+  stronger when the action has significant consequences. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ── Table 3: "cookies" sense split (Gemma 2 9B) ─────────────────────────────
+\begin{table}[t]
+\centering
+\caption{\textbf{``cookies'' sense split (Gemma 2 9B).} Solo feature 52496
+conflates the food sense (\textit{baked cookies}) with the web-technology
+sense (\textit{browser cookies, data tracking}).  The joint SAE separates
+them: feat.\ 7892 inherits the food sense ($|\varphi|\!=\!0.741$), while
+feats.\ 29453 and 34623 each specialize on the web/privacy sense
+($|\varphi|\!=\!0.875$ and $0.621$ respectively).}
+\label{tab:qual_cookies}
+\small
+\begin{tabular}{llrrl}
+\toprule
+SAE & Feat & Fuzz & $|\varphi|$ & Description \\
+\midrule
+Solo & 52496 & $+0.493$ & — &
+  \textit{cookies} in food/recipe or web-technology contexts;
+  description conflates both senses without distinguishing them. \\[4pt]
+\midrule
+Joint & 7892 & $+0.548$ & $0.741$ &
+  \textit{cookie} in food and baking contexts;
+  stronger for specific recipe or food-product references. \\[3pt]
+Joint & 29453 & $+0.345$ & $0.875$ &
+  \textit{cookies} in web privacy, data-tracking, and browser-storage
+  contexts; weaker for food mentions. \\[3pt]
+Joint & 34623 & $+0.541$ & $0.621$ &
+  \textit{cookies} in web-technology contexts emphasising data privacy
+  and user-tracking mechanisms. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ── Table 4: "flash" register split (Gemma 2 9B) ────────────────────────────
+\begin{table}[t]
+\centering
+\caption{\textbf{``flash'' register split (Gemma 2 9B).} Solo feature 3387
+conflates the general sense of a sudden, brief occurrence with the proper-noun
+sense of Adobe Flash software.  The joint SAE separates them: feat.\ 63365
+retains the sudden-event sense ($|\varphi|\!=\!0.857$), while feat.\ 34102
+isolates the Adobe Flash sense ($|\varphi|\!=\!0.173$).  Despite its low
+$|\varphi|$---reflecting how rarely this sense fires---feat.\ 34102 achieves
+the highest fuzzing score in the Gemma analysis ($+0.725$), illustrating how
+the decomposability penalty can liberate a rare but highly coherent sense
+that the solo SAE submerges.}
+\label{tab:qual_flash}
+\small
+\begin{tabular}{llrrl}
+\toprule
+SAE & Feat & Fuzz & $|\varphi|$ & Description \\
+\midrule
+Solo & 3387 & $+0.602$ & — &
+  \textit{flash} as a sudden, brief appearance or occurrence;
+  stronger for more intense or vivid contexts. \\[4pt]
+\midrule
+Joint & 63365 & $+0.363$ & $0.857$ &
+  \textit{flash} as a sudden visual or physical phenomenon;
+  stronger for unexpected or dramatic occurrences. \\[3pt]
+Joint & 34102 & $+0.725$ & $0.173$ &
+  \textit{Flash} as web software and browser plugin (Adobe Flash);
+  stronger in technical or historical web-development contexts. \\
+\bottomrule
+\end{tabular}
+\end{table}
